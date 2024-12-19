@@ -1,37 +1,34 @@
 package org.example.model;
 
-public class Item {
-    String name;
-    int quantity;
-    double price;
-    boolean isImported;
-    boolean isExempt;
+import java.util.Arrays;
+import java.util.List;
 
-    public Item(String name, int quantity, double price, boolean isImported, boolean isExempt) {
+public class Item {
+    private String name;
+    private int quantity;
+    private double price;
+    private boolean isImported;
+    private ItemCategory category;
+    private boolean isExempt;
+    private String itemTitle;
+
+    public Item(String name, int quantity, double price, boolean isImported, ItemCategory category,String itemTitle) {
         this.name = name;
         this.quantity = quantity;
         this.price = price;
         this.isImported = isImported;
-        this.isExempt = isExempt;
+        this.category = category;
+        this.itemTitle=itemTitle;
+        this.isExempt = findExempt();
+
     }
 
-    public double calculateTax() {
-        double tax = 0.0;
-        if (!isExempt) {
-            tax += 0.10 * price;
-        }
-        if (isImported) {
-            tax += 0.05 * price;
-        }
-        return roundTax(tax);
+    public String getItemTitle() {
+        return itemTitle;
     }
 
-    private double roundTax(double tax) {
-        return Math.ceil(tax * 20.0) / 20.0; // Round up to the nearest 0.05
-    }
-
-    public double totalPrice() {
-        return price + calculateTax();
+    public void setItemTitle(String itemTitle) {
+        this.itemTitle = itemTitle;
     }
 
     public String getName() {
@@ -66,11 +63,39 @@ public class Item {
         isImported = imported;
     }
 
+    private boolean findExempt() {
+        List<ItemCategory> exemptCategories = Arrays.asList(ItemCategory.BOOK, ItemCategory.MEDICAL_PRODUCT, ItemCategory.FOOD);
+        isExempt = exemptCategories.stream().anyMatch(c -> c.equals(this.category));
+
+
+        return isExempt;
+    }
+
     public boolean isExempt() {
         return isExempt;
     }
 
     public void setExempt(boolean exempt) {
         isExempt = exempt;
+    }
+
+    public ItemCategory getCategory() {
+        return category;
+    }
+
+    public void setCategory(ItemCategory category) {
+        this.category = category;
+    }
+
+    @Override
+    public String toString() {
+        return "Item{" +
+                "name='" + name + '\'' +
+                ", quantity=" + quantity +
+                ", price=" + price +
+                ", isImported=" + isImported +
+                ", category=" + category +
+                ", isExempt=" + isExempt +
+                '}';
     }
 }
