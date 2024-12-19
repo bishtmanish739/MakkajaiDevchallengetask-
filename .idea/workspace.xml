@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b709e64-09e3-43c3-875b-976280b3a30b" name="Changes" comment="design modification">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SalesTaxCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SalesTaxCalculatorApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/InputProcessorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/services/InputProcessorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/ItemCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/enums/ItemCategory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/ReceiptPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/services/ReceiptPrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/TaxCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/services/TaxCalculator.java" afterDir="false" />
+    <list default="true" id="8b709e64-09e3-43c3-875b-976280b3a30b" name="Changes" comment="folder structure modified">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SalesTaxCalculatorApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SalesTaxCalculatorApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/services/CartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/services/CartServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +45,11 @@
     "onboarding.tips.debug.path": "C:/Users/bisht/Desktop/MakkajaiCodeChallenge/src/main/java/org/example/Main.java"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.services.interfaces" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="SalesTaxCalculatorApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.SalesTaxCalculatorApp" />
@@ -86,11 +87,20 @@
       <option name="project" value="LOCAL" />
       <updated>1734628577456</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="folder structure modified">
+      <option name="closed" value="true" />
+      <created>1734629170346</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1734629170346</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="design modification" />
-    <option name="LAST_COMMIT_MESSAGE" value="design modification" />
+    <MESSAGE value="folder structure modified" />
+    <option name="LAST_COMMIT_MESSAGE" value="folder structure modified" />
   </component>
 </project>
