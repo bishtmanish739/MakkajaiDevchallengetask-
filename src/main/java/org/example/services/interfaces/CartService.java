@@ -6,4 +6,5 @@ public interface CartService {
 
     void printCartReceipt();
     void addItemToCart(Item item);
+    void clearCart();
 }

@@ -19,6 +19,10 @@ public class Cart {
     public List<Item> getItems() {
         return new ArrayList<>(items);
     }
+    public void clearCartItems(){
+        this.items.clear();
+
+    }
 
     public double getTotalSalesTax() {
         return items.stream()

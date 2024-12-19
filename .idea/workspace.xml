@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b709e64-09e3-43c3-875b-976280b3a30b" name="Changes" comment="folder structure modified">
+    <list default="true" id="8b709e64-09e3-43c3-875b-976280b3a30b" name="Changes" comment="interface implemented">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SalesTaxCalculatorApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SalesTaxCalculatorApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/services/CartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/services/CartServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/services/CartServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/services/CartServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/services/InputProcessorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/services/InputProcessorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/services/interfaces/CartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/services/interfaces/CartService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,12 +97,21 @@
       <option name="project" value="LOCAL" />
       <updated>1734629170346</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="interface implemented">
+      <option name="closed" value="true" />
+      <created>1734629956965</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1734629956965</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="design modification" />
     <MESSAGE value="folder structure modified" />
-    <option name="LAST_COMMIT_MESSAGE" value="folder structure modified" />
+    <MESSAGE value="interface implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="interface implemented" />
   </component>
 </project>

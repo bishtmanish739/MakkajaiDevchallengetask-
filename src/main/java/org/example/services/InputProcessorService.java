@@ -6,13 +6,17 @@ import java.util.List;
 
 public class InputProcessorService {
 
-    public static Item processInput(String input){
+
+    public static Item processInput(String input) throws Exception {
         String[]  parts=input.split(" ");
         String itemTitle=getItemTitle(parts);
         input=input.toLowerCase();
         boolean isImported=input.contains(" imported ");
         input=input.replace(" imported "," ");
         parts=input.split(" ");
+        if(parts.length<4 || !input.contains("at")){
+            throw new Exception("invalid input");
+        }
 
 
 

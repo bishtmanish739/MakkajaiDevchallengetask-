@@ -13,6 +13,12 @@ public class CartServiceImpl implements CartService {
     public void addItemToCart(Item item){
         this.cart.addItem(item);
     }
+
+    @Override
+    public void clearCart() {
+        this.cart.clearCartItems();
+    }
+
     @Override
     public void printCartReceipt(){
         ReceiptPrinter.printReceipt(cart);
