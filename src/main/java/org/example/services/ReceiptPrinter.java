@@ -1,4 +1,7 @@
-package org.example.model;
+package org.example.services;
+
+import org.example.model.Cart;
+import org.example.model.Item;
 
 public class ReceiptPrinter {
     public static void printReceipt(Cart cart) {

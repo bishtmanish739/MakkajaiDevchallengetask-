@@ -1,5 +1,7 @@
 package org.example.model;
 
+import org.example.enums.ItemCategory;
+
 import java.util.Arrays;
 import java.util.List;
 

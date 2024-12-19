@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b709e64-09e3-43c3-875b-976280b3a30b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SalesTaxCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SalesTaxCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/CartService.java" beforeDir="false" />
+    <list default="true" id="8b709e64-09e3-43c3-875b-976280b3a30b" name="Changes" comment="design modification">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SalesTaxCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SalesTaxCalculatorApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/InputProcessorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/services/InputProcessorService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/ItemCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/enums/ItemCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/ReceiptPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/services/ReceiptPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/TaxCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/services/TaxCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +41,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.SalesTaxCalculator.executor": "Run",
+    "Application.SalesTaxCalculatorApp.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -46,8 +50,8 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="SalesTaxCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.SalesTaxCalculator" />
+    <configuration name="SalesTaxCalculatorApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.SalesTaxCalculatorApp" />
       <module name="MakkajaiCodeChallenge" />
       <extension name="coverage">
         <pattern>
@@ -61,7 +65,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SalesTaxCalculator" />
+        <item itemvalue="Application.SalesTaxCalculatorApp" />
       </list>
     </recent_temporary>
   </component>
@@ -74,6 +78,19 @@
       <option name="presentableId" value="Default" />
       <updated>1734536290411</updated>
     </task>
+    <task id="LOCAL-00001" summary="design modification">
+      <option name="closed" value="true" />
+      <created>1734628577455</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734628577456</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="design modification" />
+    <option name="LAST_COMMIT_MESSAGE" value="design modification" />
   </component>
 </project>

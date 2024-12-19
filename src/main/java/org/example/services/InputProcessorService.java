@@ -1,4 +1,7 @@
-package org.example.model;
+package org.example.services;
+import org.example.enums.ItemCategory;
+import org.example.model.Item;
+
 import java.util.List;
 
 public class InputProcessorService {
